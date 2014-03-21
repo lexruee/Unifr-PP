@@ -56,7 +56,7 @@ string_toChars([H|T],[Atom|R]) :-
 % E.g.:		BB -> OB0B -> 0101 ok
 %		BB -> 0BB -> 011	
 
-% equivalent grammer in pure prolog:
+% equivalent grammar in pure prolog:
 s1_b(A, C) :-
 	s1_t(A, B),
 	s1_b(B, C).
